@@ -1,0 +1,137 @@
+/* reset */
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  /* font-family: 'Pretendard'; */
+}
+
+.background{
+  background: linear-gradient(#F0F4FF,#A5B6EE);
+}
+
+/* container */
+.container{
+  text-align:center;
+  margin: auto;
+  /* position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); */
+  padding:80px;
+}
+
+
+/* header */
+.timerHeader{
+  margin-bottom: 60px;
+}
+
+/* timer */
+.timer{
+  margin:auto;
+  width:400px;
+  height:360px;
+  border-radius: 16px;
+  background: linear-gradient(#5572BB,#374b7c);
+  box-shadow: 20px, 20px, 60px, 10px #374B7C;
+  padding:40px;
+}
+
+.timer h2{
+  font-size:24px;
+  font-weight: 700;
+  color:#fff;
+  line-height: 28.8px;
+  margin-bottom:28px;
+}
+
+.timerLine{
+  width:312px;
+  height:1px;
+  background-color: #3D538A;
+  margin-bottom:33px;
+}
+
+.timerNumber{
+  display:flex;
+  justify-content: space-evenly;
+}
+
+[class^=number]{
+  color:#A5B6EE;
+  font-size: 12px;
+  line-height: 14.4px;
+  font-weight: 700;
+}
+
+[id$=Number]{
+  width:80px;
+  height:80px;
+  margin-top:4px;
+  margin-bottom:40px;
+  border:1px solid #354971;
+  border-radius: 4px;
+  background: linear-gradient(#4C65A0,#304577);
+}
+
+[class^=countNumber]{
+  font-size:40px;
+  font-weight: 700;
+  color:#fff;
+  line-height: 70px;
+}
+
+
+.timerNumberLine{
+  color:#8198D0;
+  font-size: 70px;
+}
+
+.btnTimer{
+  display: flex;
+  justify-content: center;
+  gap:12px;
+}
+
+/* btn */
+.startBtn{
+  width:112px;
+  height:48px;
+  cursor: pointer;
+  background: no-repeat center/100% url(./img/start_dis.svg);
+}
+
+.resetBtn{
+  width:112px;
+  height:48px;
+  cursor: pointer;
+  background: no-repeat center/100% url(./img/reset_dis.svg);
+}
+
+.startBtnRun{
+  width:112px;
+  height:48px;
+  background: no-repeat center/100% url(./img/start.svg);
+}
+
+.pauseBtnRun{
+  width:112px;
+  height:48px;
+  cursor: pointer;
+  background: no-repeat center/100% url(./img/pause.svg);
+}
+
+.resetBtnRun{
+  width:112px;
+  height:48px;
+  cursor: pointer;
+  background: no-repeat center/100% url(./img/reset.svg);
+}
+
+/* footer */
+.timerFooter{
+  margin-top:60px;
+  color:#8596BF;
+}
+
